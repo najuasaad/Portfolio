@@ -159,9 +159,35 @@ footer {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    img.self { width: 300px;
-                height: auto;}
-    img.screenshot {width:300px;
-                    height: auto;
-                    align: center;}
+    img.self {width:200px;
+        height: auto;}
+    img.screenshot {width:200px;
+                    height: auto;}
+    h1 {
+        font-size: 2.5rem;
+        padding: 10px 0 10px 0;
+    }
+    ul li {
+        padding: 5px;
+        font-size: smaller;
+    }
+    section {
+        margin: 50px 5px 30px 5px;
+        max-width: 300px;
+    }
+    header{
+        max-width: 320px;
+    }
+    .rainbow{
+        max-width: 320px;
+        border-bottom-left-radius: 0px;
+    }
+    footer {
+        max-width: 320px;
+    }
+    .rainbowfoot{
+        max-width: 320px;
+        border-top-left-radius: 0px;
+    }
+    
 }
